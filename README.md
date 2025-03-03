@@ -56,6 +56,12 @@ Change 2 to 3 or 4
 
 Please see the code in GenerateResults.py 
 
+5. if you want to clean the cmake,
+
+```
+./clean.sh
+```
+
 ### Contribution
 If you would like to contribute to this project, feel free to submit a pull request or open an issue on GitHub.
 
