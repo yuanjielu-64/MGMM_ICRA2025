@@ -1,0 +1,8 @@
+Problem
+{
+CurrentState [ 34 17.5 ] 
+NrGoals 3
+Goal0 { Polygon2D [ 15 16.5 17 16.5 17 18.5 15 18.5  ] TimeBounds [  0 1000000  ] } 
+Goal1 { Polygon2D [ 16.5 32 18.5 32 18.5 34 16.5 34  ] TimeBounds [  0 1000000  ] } 
+Goal2 { Polygon2D [ 31.5 32 33.5 32 33.5 34 31.5 34  ] TimeBounds [  0 1000000  ] } 
+}

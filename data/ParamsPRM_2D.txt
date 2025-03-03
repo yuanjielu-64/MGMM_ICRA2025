@@ -1,0 +1,10 @@
+DecompositionPRM
+{
+    OneStepDistance 0.25
+    NrNeighbors 10
+    ProbabilityAllowCycles 1
+    BatchSize 0
+    MaxNrVertices 0
+    Runtime 7.0
+    StopWhenConnected false
+}

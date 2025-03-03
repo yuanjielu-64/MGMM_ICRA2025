@@ -1,0 +1,29 @@
+Problem
+{
+CurrentState [ 3.5 17.5 ] 
+NrGoals 24
+Goal0 { Polygon2D [ 2.5 2.5 4.5 2.5 4.5 4.5 2.5 4.5  ] TimeBounds [  0 1000000  ] } 
+Goal1 { Polygon2D [ 16.5 2.5 18.5 2.5 18.5 4.5 16.5 4.5  ] TimeBounds [  0 1000000  ] } 
+Goal2 { Polygon2D [ 24 2.5 26 2.5 26 4.5 24 4.5  ] TimeBounds [  0 1000000  ] } 
+Goal3 { Polygon2D [ 32.5 2.5 34.5 2.5 34.5 4.5 32.5 4.5  ] TimeBounds [  0 1000000  ] } 
+Goal4 { Polygon2D [ 46 2.5 48 2.5 48 4.5 46 4.5  ] TimeBounds [  0 1000000  ] } 
+Goal5 { Polygon2D [ 16.5 16.5 18.5 16.5 18.5 18.5 16.5 18.5  ] TimeBounds [  0 1000000  ] } 
+Goal6 { Polygon2D [ 24 16.5 26 16.5 26 18.5 24 18.5  ] TimeBounds [  0 1000000  ] } 
+Goal7 { Polygon2D [ 32.5 16.5 34.5 16.5 34.5 18.5 32.5 18.5  ] TimeBounds [  0 1000000  ] } 
+Goal8 { Polygon2D [ 46 16.5 48 16.5 48 18.5 46 18.5  ] TimeBounds [  0 1000000  ] } 
+Goal9 { Polygon2D [ 2.5 24 4.5 24 4.5 26 2.5 26  ] TimeBounds [  0 1000000  ] } 
+Goal10 { Polygon2D [ 16.5 24 18.5 24 18.5 26 16.5 26  ] TimeBounds [  0 1000000  ] } 
+Goal11 { Polygon2D [ 24 24 26 24 26 26 24 26  ] TimeBounds [  0 1000000  ] } 
+Goal12 { Polygon2D [ 32.5 24 34.5 24 34.5 26 32.5 26  ] TimeBounds [  0 1000000  ] } 
+Goal13 { Polygon2D [ 46 24 48 24 48 26 46 26  ] TimeBounds [  0 1000000  ] } 
+Goal14 { Polygon2D [ 2.5 34 4.5 34 4.5 36 2.5 36  ] TimeBounds [  0 1000000  ] } 
+Goal15 { Polygon2D [ 16.5 34 18.5 34 18.5 36 16.5 36  ] TimeBounds [  0 1000000  ] } 
+Goal16 { Polygon2D [ 24 34 26 34 26 36 24 36  ] TimeBounds [  0 1000000  ] } 
+Goal17 { Polygon2D [ 32.5 34 34.5 34 34.5 36 32.5 36  ] TimeBounds [  0 1000000  ] } 
+Goal18 { Polygon2D [ 46 34 48 34 48 36 46 36  ] TimeBounds [  0 1000000  ] } 
+Goal19 { Polygon2D [ 2.5 45 4.5 45 4.5 47 2.5 47  ] TimeBounds [  0 1000000  ] } 
+Goal20 { Polygon2D [ 16.5 45 18.5 45 18.5 47 16.5 47  ] TimeBounds [  0 1000000  ] } 
+Goal21 { Polygon2D [ 24 45 26 45 26 47 24 47  ] TimeBounds [  0 1000000  ] } 
+Goal22 { Polygon2D [ 32.5 45 34.5 45 34.5 47 32.5 47  ] TimeBounds [  0 1000000  ] } 
+Goal23 { Polygon2D [ 46 45 48 45 48 47 46 47  ] TimeBounds [  0 1000000  ] } 
+}

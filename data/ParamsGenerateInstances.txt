@@ -1,0 +1,6 @@
+GenerateInstances
+{
+    SeparationInitialGoal 1.0
+    SeparationObstacleInitial 1.0
+    SeparationObstacleGoal 1.0
+}

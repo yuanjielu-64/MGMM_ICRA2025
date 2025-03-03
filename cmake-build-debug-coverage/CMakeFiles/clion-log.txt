@@ -1,0 +1,2 @@
+Cannot generate 'debug-Coverage' into /home/yuanjielu/Desktop/Motion_Planning_Project/Das_project/DROMOS/cmake-build-debug-coverage
+Only in-source generation will be performed.

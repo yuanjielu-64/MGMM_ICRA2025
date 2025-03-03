@@ -1,0 +1,20 @@
+Problem
+{
+CurrentState [ 40 10 ] 
+NrGoals 15
+Goal0 { Polygon2D [ 9 9 11 9 11 11 9 11  ] TimeBounds [  0 1000000  ] } 
+Goal1 { Polygon2D [ 19 9 21 9 21 11 19 11  ] TimeBounds [  0 1000000  ] } 
+Goal2 { Polygon2D [ 29 9 31 9 31 11 29 11  ] TimeBounds [  0 1000000  ] } 
+Goal3 { Polygon2D [ 9 19 11 19 11 21 9 21  ] TimeBounds [  0 1000000  ] } 
+Goal4 { Polygon2D [ 19 19 21 19 21 21 19 21  ] TimeBounds [  0 1000000  ] } 
+Goal5 { Polygon2D [ 29 19 31 19 31 21 29 21  ] TimeBounds [  0 1000000  ] } 
+Goal6 { Polygon2D [ 39 19 41 19 41 21 39 21  ] TimeBounds [  0 1000000  ] } 
+Goal7 { Polygon2D [ 9 29 11 29 11 31 9 31  ] TimeBounds [  0 1000000  ] } 
+Goal8 { Polygon2D [ 19 29 21 29 21 31 19 31  ] TimeBounds [  0 1000000  ] } 
+Goal9 { Polygon2D [ 29 29 31 29 31 31 29 31  ] TimeBounds [  0 1000000  ] } 
+Goal10 { Polygon2D [ 39 29 41 29 41 31 39 31  ] TimeBounds [  0 1000000  ] } 
+Goal11 { Polygon2D [ 9 39 11 39 11 41 9 41  ] TimeBounds [  0 1000000  ] } 
+Goal12 { Polygon2D [ 19 39 21 39 21 41 19 41  ] TimeBounds [  0 1000000  ] } 
+Goal13 { Polygon2D [ 29 39 31 39 31 41 29 41  ] TimeBounds [  0 1000000  ] } 
+Goal14 { Polygon2D [ 39 39 41 39 41 41 39 41  ] TimeBounds [  0 1000000  ] } 
+}

@@ -1,0 +1,19 @@
+UseScene Scene2D
+UseSimulator SimulatorCarTrailers
+
+Scene2D
+{
+   Grid { NrDims 2 Dims [64 64] Min [0.0 0.0] Max [50.0 50.0] }
+   ObstacleHeight 1.0
+   ObstaclesPolygonsFile data/Obstacles/Curves_3/0.txt
+   Boundaries { Thickness 1.0 Height 2.0 }
+}
+
+
+ParamsExtraFile data/ParamsGeneral.txt
+ParamsExtraFile data/ParamsPRM_2D.txt
+ParamsExtraFile data/ParamsCar.txt
+ParamsExtraFile data/ParamsJuveForCar.txt
+ParamsExtraFile data/ParamsDromosForCar.txt
+ParamsExtraFile data/ParamsGraphics2D.txt
+ParamsExtraFile data/ParamsGenerateInstances.txt

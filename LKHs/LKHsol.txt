@@ -1,0 +1,25 @@
+NAME : atsp.134.tour
+COMMENT : Length = 134
+COMMENT : Found by LKH-3 [Keld Helsgaun] Sat Mar 23 21:40:21 2024
+TYPE : TOUR
+DIMENSION : 17
+TOUR_SECTION
+1
+12
+8
+9
+5
+4
+3
+2
+6
+7
+11
+10
+13
+14
+15
+16
+17
+-1
+EOF
