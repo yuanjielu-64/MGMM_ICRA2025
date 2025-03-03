@@ -4,18 +4,23 @@
 
 
 # Multi-Goal Motion Memory
+A novel approach for efficient multi-goal motion planning in complex environments
 
 ## Language
 This code is written in C++ 
 
 ## Requirements
+Our experimental evaluation was conducted on a workstation with:
 
-The experimental evaluation uses a workstation with an AMD Ryzen 9 5900X (CPU: 3.7 GHz) running the Ubuntu 20.04 operating system. The code for the motion planning algorithms is developed in C++ and compiled with g++-9.4.0, while the neural network models are implemented in Python 3.8, leveraging the Pytorch 2.2.2 framework.
+AMD Ryzen 9 5900X CPU (3.7 GHz)
+Ubuntu 20.04 operating system
+C++ implementation compiled with g++-9.4.0
+Neural network models implemented in Python 3.8 with PyTorch 2.2.2
 
-The requirements above are just suggestions. If you run into any issue, please contact organizers for help (ylu22@gmu.edu).
+These specifications are recommendations; if you encounter any issues during setup, please contact us for assistance (ylu22@gmu.edu).
 
 ## Run Simulations
-Before we run the simulation to get the results, go https://treelite.readthedocs.io/en/latest/ to download the treelite
+First, install the Treelite dependency from https://treelite.readthedocs.io/en/latest/
 
 1. Download the treelite
 ```
@@ -24,47 +29,72 @@ cd treelite
 mkdir build
 cd build
 cmake ..
+cd ..
 ```
 
-2. Cmake the Multi-Goal motion memory file
+2. Build Multi-Goal Motion Memory
 ```
 cd ..
 ./build.sh
 ```
 
-3. Run the experiments
+3. Run Experiments
 ```
-python GenerateResults.py --scene SCENE --planner PLANNER --grid 2
+python GenerateResults.py --scene SCENE --planner PLANNER --grid GRID_SIZE
 ```
-where SCENE can be Random, Curves, Maze, and Storage.  PLANNER can be "Dromos" and "Juve". In this code, "Dromos" represents the MGMM, while "Juve" represents the baselines
+Parameters:
+SCENE: "Random", "Curves", "Maze", and "Storage".
+PLANNER: "Dromos" and "Juve". 
+GRID_SIZE: 2, 3, 4
+In this code, "Dromos" represents the MGMM, while "Juve" represents the baselines
 
 ```
 python GenerateResults.py --scene Random --planner Dromos --grid 2
 ```
 
-4. If you want to see the simualtion
-For example:
+4. Visualize Simulations
+Run specific scenarios with visualization:
 ```
 ./bin/Runner GRunMP data/ParamsSceneCurvesForCar.txt ParamsExtraFile data/Instances/CurvesCarNrGrids2/0.txt MGMMPredictLabel data/PredictLabel/ UseMP Dromos UseMap Curves PlannerStatsFile data/Results/DromosCurvesForCar_2.txt UseGrid 2 UseObstacle 0 TopNumber 5
 ```
-
+Or try different environments:
 ```
 ./bin/Runner GRunMP data/ParamsSceneRandomForCar.txt ParamsExtraFile data/Instances/RandomCarNrGrids4/1.txt MGMMPredictLabel data/PredictLabel/ UseMP Dromos UseMap Random PlannerStatsFile data/Results/DromosRandomForCar_4.txt UseGrid 4 UseObstacle 1 TopNumber 5
 ```
+When the visualization appears:
+1. Right-click on "Motion Planner"
+2. Select "solve repeat"
+3. Click "animate solution" to view the path execution
 
-When you see the scene, right-click "Motion Planner" and click "solve repeat", then you can click animate solution
+You can modify parameters to test different scenarios:
 
+Change environment: Replace Curves with Random, Maze, or Storage
+Change planner: Replace Dromos with Juve
+Adjust grid size: Change grid parameter (2, 3, or 4)
 
-Change Curves as Random, Maze and Storage
-Change Dromos as Juve
-Change 2 to 3 or 4
+For more configuration options, see GenerateResults.py. 
 
-Please see the code in GenerateResults.py 
-
-5. if you want to clean the cmake,
+5. Clean Build Files
 
 ```
 ./clean.sh
+```
+
+6. Snake Model Configuration
+To switch to the snake-like model, modify data/ParamsCar.txt:
+Change from:
+
+```
+   CarBodyLength 2.00
+   CarBodyWidth  0.9
+   CarNrTrailers 0
+```
+
+to 
+```
+   CarBodyLength 0.66
+   CarBodyWidth  0.5
+   CarNrTrailers 3
 ```
 
 ### Contribution
