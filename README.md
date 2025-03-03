@@ -1,3 +1,8 @@
+<p align="center">
+  <img width = "100%" src='gdata/mapsAndCar.png' />
+  </p>
+
+
 # Multi-Goal Motion Memory
 
 ## Language
