@@ -65,13 +65,13 @@ SUBSEQUENT_PATCHING = YES
 TRACE_LEVEL = 1
 VEHICLES = 1
 
-Lower bound = 134.0, Ascent time = 0.00 sec.
-Cand.min = 2, Cand.avg = 4.8, Cand.max = 5
+Lower bound = 94.0, Ascent time = 0.00 sec.
+Cand.min = 2, Cand.avg = 4.6, Cand.max = 5
 Edges.fixed = 17 [Cost = 0]
 Preprocessing time = 0.00 sec.
 Writing OUTPUT_TOUR_FILE: "LKHs/LKHsol.txt" ... done
 Successes/Runs = 1/0 
-Cost.min = 134, Cost.avg = 134.00, Cost.max = 134
+Cost.min = 94, Cost.avg = 94.00, Cost.max = 94
 Gap.min = 0.0000%, Gap.avg = 0.0000%, Gap.max = 0.0000%
 Trials.min = 0, Trials.avg = 0.0, Trials.max = 0
 Time.min = 0.00 sec., Time.avg = 0.00 sec., Time.max = 0.00 sec.
