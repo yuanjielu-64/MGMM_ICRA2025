@@ -4,7 +4,7 @@
 
 
 # Multi-Goal Motion Memory
-A novel approach for efficient multi-goal motion planning in complex environments
+A novel approach for efficient multi-goal motion planning in complex environments. Our research has been accepted for presentation at IEEE ICRA 2025. Full paper available at: https://arxiv.org/abs/2407.11399 
 
 ## Language
 This code is written in C++ 
